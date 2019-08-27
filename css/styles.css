@@ -1,0 +1,15 @@
+h1, p{
+  text-align: center;
+}
+p {
+  font-size: 20px;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+}
+
+#result {
+  display: none;
+}
