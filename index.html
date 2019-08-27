@@ -18,37 +18,36 @@
             <div class="form-group">
               <select class="form-control" id="title" name=""title>
                 <option disabled selected>Select a Movie</option>
-                <option>Angel Has Fallen</option>
-                <option>Titanic</option>
-                <option>The avengers</option>
-                <option>Harry Potter</option>
-                <option>Toy Story</option>
+                <option value="Lion-king">The Lion King (New Release!)</option>
+                <option value="Titanic">Titanic</option>
+                <option value="Avengers">The avengers</option>
+                <option value="Harry-potter">Harry Potter</option>
+                <option value="Toy-story">Toy Story</option>
               </select>
             </div>
             <div class="form-group">
               <select class="form-control" id="time" name="time">
                 <option disabled selected>Select Time</option>
-                <option>9am - 12pm</option>
-                <option>12pm - 3pm</option>
-                <option>3pm - 6pm</option>
-                <option>6pm - 9pm</option>
-                <option>After 9pm</option>
+                <option value="early">Open - 11:55am</option>
+                <option value="matinee">12pm - 5:55pm</option>
+                <option value="late">6am - Close</option>
               </select>
             </div>
             <div class="form-group">
               <select class="form-control" id="age" name="age">
                 <option disabled selected>Ticket Type</option>
-                <option>Kids</option>
-                <option>Adult</option>
-                <option>Senior</option>
+                <option value="children">Childern (< 11)</option>
+                <option value="adult">Adults</option>
+                <option value="senior">Seniors (60+)</option>
               </select>
             </div>
-            <button class="btn btn-info">See the Price</button>
+            <button class="btn btn-info" type='submit'>See the Price</button>
           </form>
         </div>
-        <div class="col-md-6">
-          <h2>Ticket:</h2>
-          <h2>Price</h2>
+        <div class="col-md-6" id="result">
+          <h2>Ticket for</h2>
+          <div id="ticket"></div>
+          <h2 id="price">Price:</h2>
         </div>
       </div>
     </div>

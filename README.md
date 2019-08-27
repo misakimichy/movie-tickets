@@ -8,14 +8,14 @@ Build a website of Movie Tickets(using HTML, CSS, Bootstrap, JavaScript and jQue
 Create a webpage where a user can select the name of a movie, the time of day that they would like to see the movie and their age.
 
 ## Website should have:
-- The webpage should let them know how much their movie ticket will cost, based on those three factors.
+- The price would change depends on:
+  - New release movie or not
+  - Time of day
+  - Their age
 
-Consider that those tickets tend to be cheaper than the regular priced ticket.
-  - non-"first-release" movies,
-  - Matinee
-  - Senior
+- After users choose those info, show them a price.
 
-Your constructor and prototype could be called Ticket and you can come up with the formula for determining how the price is calculated depending on the input from the user.
+- Your constructor and prototype could be called Ticket and you can come up with the formula for determining how the price is calculated depending on the input from the user.
 
 
 ## Setup/Installation Requirements
