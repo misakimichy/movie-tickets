@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <title>Movie Tickets</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-header">Movie Tickets</h1>
+      <p>Select a movie, time and ticket type to check the price!</p>
+      <div class="row">
+        <div class="col-md-6">
+          <form action="index.html" method="post">
+            <div class="form-group">
+              <select class="form-control" id="title" name=""title>
+                <option disabled selected>Select a Movie</option>
+                <option>Angel Has Fallen</option>
+                <option>Titanic</option>
+                <option>The avengers</option>
+                <option>Harry Potter</option>
+                <option>Toy Story</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <select class="form-control" id="time" name="time">
+                <option disabled selected>Select Time</option>
+                <option>9am - 12pm</option>
+                <option>12pm - 3pm</option>
+                <option>3pm - 6pm</option>
+                <option>6pm - 9pm</option>
+                <option>After 9pm</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <select class="form-control" id="age" name="age">
+                <option disabled selected>Ticket Type</option>
+                <option>Kids</option>
+                <option>Adult</option>
+                <option>Senior</option>
+              </select>
+            </div>
+            <button class="btn btn-info">See the Price</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <h2>Ticket:</h2>
+          <h2>Price</h2>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
